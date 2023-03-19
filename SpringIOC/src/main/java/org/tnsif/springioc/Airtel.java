@@ -1,0 +1,16 @@
+package org.tnsif.springioc;
+
+public class Airtel implements Sim{
+
+	public void call() {
+		System.out.println("call using Airtel");
+		
+	}
+
+	public void massage() {
+		System.out.println("6G is coming soon....");
+		
+	}
+	
+
+}
