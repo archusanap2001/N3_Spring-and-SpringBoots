@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Context schema-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+<bean id="swift" class="org.tnsif.literals.SwiftEngine">
+
+<property name="company" value="Nexon"/>
+<property name="cost" value="100000"/>
+
+</bean>
+<bean id="Renault" class="org.tnsif.literals.SwiftEngine">
+
+<property name="company" value="Renault"/>
+<property name="cost" value="200000"/>
+
+</bean>
+</beans>     
